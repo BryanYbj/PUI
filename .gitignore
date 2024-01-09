@@ -1,0 +1,10 @@
+node_modules/
+.log
+.npmrc
+.npmignore
+.npmpackage
+.npm-debug.log
+.npm-debug.log*
+.npmrc
+.npmrc*
+.npmignore

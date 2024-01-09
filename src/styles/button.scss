@@ -1,0 +1,59 @@
+@import './base.scss';
+
+.p-button {
+  border-radius: $borderRadius;
+  padding: $defaultPaddingTop $defaultPaddingLeft;
+  border: 1px solid;
+}
+
+.p-button-large {
+  padding: $largePaddingTop $largePaddingLeft;
+}
+
+.p-button-small {
+  padding: $smalPaddingTop $smallPaddingLeft;
+}
+
+.p-button--default {
+  background-color: $defaultColor;
+  color: $defaultTextColor;
+  border-color: $defaultTextColor;
+}
+
+.p-button--default:active {
+  border-color: $primaryActiveColor
+}
+
+.p-button--default:hover {
+  background-color: $primaryHoverColor;
+  color: $primaryColor;
+  border-color: $primaryHoverColor;
+}
+
+.p-button--primary {
+  background-color: $primaryColor;
+  color: $primaryTextColor;
+  border-color: $primaryColor;
+}
+
+.p-button--primary:hover {
+  background-color: $primaryHoverColor;
+}
+
+.p-button--primary:active {
+  background-color: $primaryActiveColor;
+}
+
+.p-button--warning {
+  background-color: $warningColor;
+  color: $warningTextColor;
+  border-color: $warningColor;
+}
+
+.p-button--warning:hover {
+  background-color: $warningHoverColor;
+}
+
+.p-button--warning:active {
+  background-color: $warningActiveColor;
+}
